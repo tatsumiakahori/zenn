@@ -1,0 +1,19 @@
+{
+  "title": "スクラップのテスト",
+  "closed": true,
+  "archived": true,
+  "created_at": "2024-08-20",
+  "comments": [
+    {
+      "author": "tkhr_tech",
+      "created_at": "2024-08-20",
+      "body_markdown": "# スクラップのテストです\n作業ログとか調査内容とかNotionで残してるけど、スクラップで残すって手もあるのかー",
+      "body_updated_at": "2024-08-20"
+    },
+    {
+      "author": "tkhr_tech",
+      "created_at": "2024-08-20",
+      "body_markdown": "全然関係ないけど、GitHub連携して記事の管理するようにしたいな。"
+    }
+  ]
+}

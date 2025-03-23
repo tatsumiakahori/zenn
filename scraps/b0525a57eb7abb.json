@@ -1,0 +1,20 @@
+{
+  "title": "Gin×Reactで作るWEBアプリケーション開発",
+  "closed": false,
+  "archived": false,
+  "created_at": "2024-08-31",
+  "comments": [
+    {
+      "author": "tkhr_tech",
+      "created_at": "2024-08-31",
+      "body_markdown": "# 構成\n- BE: **Gin** (Golang) を使用してAPI構築\n- FE: **React**\n- DB: **PostgreSQL**\n- 実行環境&デプロイ\n    - 実行環境は**Docker**で作成\n    - デプロイ\n        - FEは**Vercel**でデプロイ\n        - BEは**Heroku**でデプロイ\n- ディレクトリ構成\n    - FEとBEでそれぞれGit Repositoryを用意(Polyrepo)",
+      "body_updated_at": "2024-08-31"
+    },
+    {
+      "author": "tkhr_tech",
+      "created_at": "2024-08-31",
+      "body_markdown": "# 大まかな実装手順\n### フェーズ1: プロジェクトのセットアップ\n1. プロジェクトの初期設定\n    - Gin、ReactそれぞれのGit Repositoryを作成し、セットアップ\n2. Docker環境の構築\n    - DockerfileとDocker Composeファイルを作成し、GinとReactの開発環境を構築\n3. データベースの設定\n    - PostgreSQLの設定を行い、バックエンドと接続\n    - 簡単なデータモデルの作成と動作確認\n4. デプロイの準備\n    - HerokuとVercelのアカウントを作成し、CLIのセットアップ\n    - デプロイして表示確認まで\n### フェーズ2: APIの実装 \n5. APIエンドポイントの設計\n    - アイテムのアップロード、アイテム一覧、アイテム詳細\n    - アイテムの編集と削除は後ででいいかな\n6. APIの実装\n    - Ginを使ってエンドポイントの実装\n    - データベース操作の実装\n7. Herokuへのデプロイ\n### フェーズ3: フロントエンドの実装\n8. Figmaで簡単なワイヤーフレーム作成\n9. 画面ざっと実装\n10. APIとの統合\n11. 細かい調整など\n12. Vercelへのデプロイ",
+      "body_updated_at": "2024-08-31"
+    }
+  ]
+}
